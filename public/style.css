@@ -1,0 +1,41 @@
+.header {
+  padding: 3rem;
+  text-align: center;
+}
+* {
+  font-family: 'poppins', sans-serif;
+}
+ 
+.icon {
+  height: 42px;
+}
+ 
+.content {
+  display: flex;
+  justify-content: center !important;
+}
+ 
+form {
+  flex: 0 0 80%;
+  padding: 2rem 2rem 1rem 2rem;
+  border: 1px solid #ccc;
+  border-radius: .25rem;
+  text-align: center;
+}
+
+.stats {
+  text-align: center;
+}
+
+.status {
+  position: absolute;
+  left: 50%;
+  font-weight: 900px;
+  transform: translate(-50%);
+  border-style:solid;
+  border-width: 1.5px;
+  border-color: #000;
+  width: 20vw;
+  height: 15vh;
+  user-select: none;
+}
